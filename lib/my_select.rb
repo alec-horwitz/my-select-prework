@@ -4,7 +4,7 @@ def my_select(collection)
   while i < collection.length
     temp = yield(collection[i])
     if temp == true
-      collection1.push(temp)
+      collection1.push(collection[i])
     end
     i = i + 1
   end
