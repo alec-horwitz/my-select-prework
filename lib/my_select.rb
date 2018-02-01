@@ -1,12 +1,12 @@
 def my_select(collection)
   i = 0
-  array1 = Array.new
-  while i < array.length
-    temp = yield(array[i])
+  collection1 = Array.new
+  while i < collection.length
+    temp = yield(collection[i])
     if temp == true
-      array1.push(temp)
+      collection1.push(temp)
     end
     i = i + 1
   end
-  array1
+  collection1
 end
